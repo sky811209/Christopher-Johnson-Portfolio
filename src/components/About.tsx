@@ -86,8 +86,8 @@ const About = () => {
           {/* Stats Section */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 animate-fade-in-up">
             {[
-              { number: "9", label: "Apps Published" },
-              { number: "3", label: "Years Experience" },
+              { number: "10+", label: "Apps Published" },
+              { number: "5", label: "Years Experience" },
               { number: "30", label: "Projects Completed" },
               { number: "100%", label: "Client Satisfaction" }
             ].map((stat, index) => (

@@ -1,6 +1,6 @@
-# Christopher Johnson - Portfolio
+# Ahmad Failzal - Portfolio
 
-A professional portfolio website showcasing Christopher Johnson's skills, projects, and experience.
+A professional portfolio website showcasing Ahmad Failzal's skills, projects, and experience.
 
 ## Features
 

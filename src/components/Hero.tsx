@@ -21,7 +21,7 @@ const Hero = () => {
           <div className="mb-8">
             <h1 className="text-6xl md:text-8xl font-bold mb-6 leading-tight">
               <span className="bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent animate-gradient">
-                Christopher Johnson
+                Ahmad Failzal
               </span>
             </h1>
             <h2 className="text-2xl md:text-4xl text-muted-foreground mb-6 font-light">

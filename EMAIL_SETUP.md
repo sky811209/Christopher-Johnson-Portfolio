@@ -1,4 +1,4 @@
-# Email Setup Guide for Christopher Johnson's Portfolio
+# Email Setup Guide for Ahmad Failzal's Portfolio
 
 ## Overview
 Your portfolio now has a sophisticated contact form that can send emails directly to your Gmail account (mashmovie58@gmail.com). The system includes multiple fallback methods to ensure reliability.
@@ -122,4 +122,4 @@ If you encounter issues:
 
 ---
 
-**Note**: The portfolio now displays "Christopher Johnson" as requested, and includes sexy custom scrollbars throughout the interface. The email functionality is ready to use with the mailto fallback, and can be enhanced with any of the professional email services mentioned above.
+**Note**: The portfolio now displays "Ahmad Failzal" as requested, and includes sexy custom scrollbars throughout the interface. The email functionality is ready to use with the mailto fallback, and can be enhanced with any of the professional email services mentioned above.

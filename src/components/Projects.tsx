@@ -181,7 +181,7 @@ const Projects = () => {
         <div className="mt-20 text-center">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-2xl mx-auto">
             {[
-              { number: "9+", label: "Apps Published" },
+              { number: "10+", label: "Apps Published" },
               { number: "6", label: "Platforms" },
               { number: "100K+", label: "Downloads" },
               { number: "4.8★", label: "Average Rating" }
