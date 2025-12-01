@@ -88,7 +88,7 @@ const About = () => {
             {[
               { number: "10+", label: "Apps Published" },
               { number: "5", label: "Years Experience" },
-              { number: "30", label: "Projects Completed" },
+              { number: "30+", label: "Projects Completed" },
               { number: "100%", label: "Client Satisfaction" }
             ].map((stat, index) => (
               <div key={index} className="text-center">
