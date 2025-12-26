@@ -7,12 +7,12 @@ const Skills = () => {
     {
       title: "Mobile Development",
       icon: <Smartphone className="w-8 h-8 text-primary" />,
-      skills: ["Flutter", "React Native", "Swift", "Kotlin"],
+      skills: ["Flutter", "React Native", "Tauri", "Swift", "Kotlin"],
       color: "primary",
       description: "Creating beautiful, performant mobile applications for iOS and Android"
     },
     {
-      title: "Frontend Development", 
+      title: "Frontend Development",
       icon: <Palette className="w-8 h-8 text-tech-green" />,
       skills: ["React.js", "Vue.js", "Angular.js", "Next.js", "Nuxt.js", "HTML", "CSS", "JavaScript"],
       color: "tech-green",
@@ -21,7 +21,7 @@ const Skills = () => {
     {
       title: "Backend Development",
       icon: <Server className="w-8 h-8 text-accent" />,
-      skills: ["PHP", "Node.js", "Laravel"],
+      skills: ["PHP", "Node.js", "Laravel", "Python"],
       color: "accent",
       description: "Developing robust server-side applications and RESTful APIs"
     },
@@ -47,11 +47,11 @@ const Skills = () => {
             Comprehensive skills across the full development stack, from mobile apps to scalable web applications
           </p>
         </div>
-        
+
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
           {skillCategories.map((category, index) => (
-            <Card 
-              key={index} 
+            <Card
+              key={index}
               className="bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/30 transition-all duration-500 animate-fade-in-up hover:scale-105 group"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
@@ -71,7 +71,7 @@ const Skills = () => {
               <CardContent>
                 <div className="flex flex-wrap gap-3">
                   {category.skills.map((skill, skillIndex) => (
-                    <Badge 
+                    <Badge
                       key={skillIndex}
                       variant="secondary"
                       className="bg-secondary/50 hover:bg-primary/20 transition-all duration-300 hover:scale-105 px-3 py-1 text-sm font-medium border border-border/30 hover:border-primary/30"
@@ -94,11 +94,13 @@ const Skills = () => {
             {[
               { tech: "Flutter", level: 95 },
               { tech: "React Native", level: 93 },
+              { tech: "Tauri", level: 93 },
               { tech: "React.js", level: 92 },
               { tech: "Node.js", level: 90 },
               { tech: "Vue.js", level: 91 },
               { tech: "Laravel", level: 90 },
               { tech: "Firebase", level: 94 },
+              { tech: "Supabase", level: 94 },
               { tech: "MongoDB", level: 90 }
             ].map((item, index) => (
               <div key={index} className="text-center animate-fade-in-up" style={{ animationDelay: `${index * 0.1}s` }}>
