@@ -90,7 +90,7 @@ const Skills = () => {
           <h3 className="text-2xl font-bold text-center mb-12 text-foreground">
             Technology Proficiency
           </h3>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-10">
             {[
               { tech: "Flutter", level: 95 },
               { tech: "React Native", level: 93 },
